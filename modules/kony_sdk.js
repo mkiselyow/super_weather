@@ -1,5 +1,5 @@
 /*
-  * kony-sdk-ide Version 8.1.14
+  * kony-sdk-ide Version 8.1.19
   */
         
 /**
@@ -185,7 +185,7 @@ kony.sdk.isInitialized = false;
 kony.sdk.currentInstance = null;
 kony.sdk.isLicenseUrlAvailable = true;
 kony.sdk.constants = kony.sdk.constants || {};
-kony.sdk.version = "8.1.14";
+kony.sdk.version = "8.1.19";
 kony.sdk.logger = new konyLogger();
 kony.sdk.logsdk = new konySdkLogger();
 kony.sdk.syncService = null;
@@ -1010,6 +1010,9 @@ kony.sdk.errormessages.invalid_queryparams_instance = "Provided queryParams is i
 
 kony.sdk.errorcodes.invalid_object = 90008;
 kony.sdk.errormessages.invalid_object = "Invalid object name, Operation Failed.";
+
+kony.sdk.errorcodes.invalid_blob = 90009;
+kony.sdk.errormessages.invalid_blob = "Failed to read from binary file, either the file does not exist or invalid";
 /**
  * Method to create the Identity service instance with the provided provider name.
  * @param {string} providerName - Name of the provider
@@ -2822,8 +2825,17 @@ kony.sdk.OfflineObjectService = function(konyRef, serviceName) {
                 if(getBase64){
                     //get base64 from response
                     var tempFile = new kony.io.File(response["FilePath"]);
-                    var tempRawBytes = tempFile.read();
-                    result = kony.convertToBase64 (tempRawBytes);
+                    if(!kony.sdk.isNullOrUndefined(tempFile) && tempFile.exists() && tempFile.readable){
+                        var tempRawBytes = tempFile.read();
+                        result = kony.convertToBase64 (tempRawBytes);
+					}
+					else{
+                    	kony.sdk.logsdk.error("Error in reading binary file from filepath ",response["FilePath"]);
+                    	var errorCode = kony.sdk.errorcodes.invalid_blob;
+                    	var errorMessage = kony.sdk.errormessages.invalid_blob;
+                        kony.sdk.verifyAndCallClosure(failureCallback, kony.sdk.error.getClientErrObj(errorCode,errorMessage));
+					}
+
                 }else{
                     //get filepath from response
                     result = response["FilePath"];

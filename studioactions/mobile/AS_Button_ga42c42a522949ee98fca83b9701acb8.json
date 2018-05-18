@@ -1,0 +1,28 @@
+{
+    "AS_Button_ga42c42a522949ee98fca83b9701acb8": {
+        "id": "AS_Button_ga42c42a522949ee98fca83b9701acb8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e847e34c7d0d457189452b4e513beba0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fb6a68b894db4556b36dfc5671475aad",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "logOut",
+            "display": "logOut",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

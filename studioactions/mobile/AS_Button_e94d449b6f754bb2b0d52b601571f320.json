@@ -1,0 +1,21 @@
+{
+    "AS_Button_e94d449b6f754bb2b0d52b601571f320": {
+        "id": "AS_Button_e94d449b6f754bb2b0d52b601571f320",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c0490c2cf9534c6a8f54955468ca37b2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToWeatherListScreen",
+            "display": "navigateToWeatherListScreen",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

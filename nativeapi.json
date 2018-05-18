@@ -7,7 +7,7 @@
                     "platform": "iOS",
                     "os": "11.0",
                     "url": "C:\\Users\\inikol\\Kony-Visualizer-V8\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\603\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
-                    "filepath": "C:\\Users\\inikol\\KonyVizEWS\\KonyWeather\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
                     "enable": true
                 }
             }
@@ -19,7 +19,7 @@
                     "platform": "Android",
                     "os": "4.0",
                     "url": "C:\\Users\\inikol\\Kony-Visualizer-V8\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\603\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
-                    "filepath": "C:\\Users\\inikol\\KonyVizEWS\\KonyWeather\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
                     "enable": true
                 }
             }

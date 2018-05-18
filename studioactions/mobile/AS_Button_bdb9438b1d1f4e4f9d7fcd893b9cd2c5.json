@@ -1,0 +1,28 @@
+{
+    "AS_Button_bdb9438b1d1f4e4f9d7fcd893b9cd2c5": {
+        "id": "AS_Button_bdb9438b1d1f4e4f9d7fcd893b9cd2c5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e847e34c7d0d457189452b4e513beba0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h37b984fd3674ef5bbf7250d85ec7275",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToWeatherListScreen",
+            "display": "navigateToWeatherListScreen",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

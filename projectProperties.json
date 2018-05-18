@@ -29,7 +29,7 @@
     "mwhttpsportkey": "",
     "defaulttheme": "defaultTheme",
     "nativeContainerProperties": {
-        "isModified": true,
+        "isModified": false,
         "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
         "isEnableJSContaineriOS": true
@@ -233,5 +233,10 @@
     "watchos_notificationcentericon_38": "",
     "watchos_notificationcentericon_42": "",
     "watchos_watchMarketing1x": "",
-    "enableactionbar": false
+    "enableactionbar": false,
+    "ide_appEvents": {
+        "mobile": {
+            "appservice": "AS_AppEvents_bcaf894db9c14fbeba3f96a3519284ba"
+        }
+    }
 }

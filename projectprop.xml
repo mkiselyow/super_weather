@@ -53,7 +53,7 @@
     <attributes name="win8bgagentnamespace" value=""/>
     <attributes name="apmgestureswipe" value=""/>
     <attributes name="appnamekey" value="KonyWeather"/>
-    <attributes name="currentgaversion" value="8.1.16.v201804031743"/>
+    <attributes name="currentgaversion" value="8.1.20.v201805041058"/>
     <attributes name="wp10sharedUserCertificates" value="false"/>
     <attributes name="winphone_allowselfsignedcertificate" value="None"/>
     <attributes name="SET_TIME" value="false"/>
@@ -75,7 +75,7 @@
     <attributes name="bb10buildid" value=""/>
     <attributes name="apmerrorunhandledexception" value="true"/>
     <attributes name="READ_CONTACTS" value="false"/>
-    <attributes name="schemekey" value=""/>
+    <attributes name="schemekey" value="konyweather"/>
     <attributes name="wintilebackcolornamekey" value="128,128,128"/>
     <attributes name="BROADCAST_SMS" value="false"/>
     <attributes name="REBOOT" value="false"/>
@@ -126,7 +126,7 @@
     <attributes name="wp10pfxkey" value=""/>
     <attributes name="ACCESS_CHECKIN_PROPERTIES" value="false"/>
     <attributes name="MOUNT_FORMAT_FILESYSTEMS" value="false"/>
-    <attributes name="lastmodifiedtime" value="1526383427243"/>
+    <attributes name="lastmodifiedtime" value="1526553237324"/>
     <attributes name="ipad_notificationicon_1x_20" value=""/>
     <attributes name="iphone_spotlighticon_2x_40" value=""/>
     <attributes name="wp10microphone" value="false"/>
@@ -285,7 +285,7 @@
     <attributes name="SET_ACTIVITY_WATCHER" value="false"/>
     <attributes name="wp10blockedChatMessages" value="false"/>
     <attributes name="apmserviceresponse" value="false"/>
-    <attributes name="urlschemanameorder" value=""/>
+    <attributes name="urlschemanameorder" value="Scheme,Host"/>
     <attributes name="ID_CAP_NETWORKING" value="true"/>
     <attributes name="UseSQLCipherFIPS" value="false"/>
     <attributes name="tcandroid360basefontsize" value="13"/>
@@ -429,7 +429,7 @@
     <attributes name="thinwebcontextkey" value=""/>
     <attributes name="access_sms_mms" value="false"/>
     <attributes name="winmobiletileimagekey" value=""/>
-    <attributes name="hostkey" value=""/>
+    <attributes name="hostkey" value="com.orgname.KonyWeather"/>
     <attributes name="AUTHENTICATE_ACCOUNTS" value="false"/>
     <attributes name="win8widelogokey" value=""/>
     <attributes name="privateNetworkClientServer" value="false"/>

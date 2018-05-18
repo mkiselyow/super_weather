@@ -1,5 +1,5 @@
 // -- SDK File : KonySyncLib.js 
-//  --Generated On Thu Mar 22 13:51:02 IST 2018******************* 
+//  --Generated On Thu Apr 26 16:13:41 IST 2018******************* 
 //  **************** Start jsonWriter.js*******************
 //#ifdef iphone
 	//#define KONYSYNC_IOS
@@ -1217,11 +1217,13 @@ kony.sync.getBinary = function(dbname, tableName, binaryColumnName, primaryKeyTa
     }
 
     function getBinaryFileFailure(error) {
-        sync.log.trace("kony.sync.getBinary - error received from getFilePath ", error);
         if(!kony.sync.isNullOrUndefined(error)) {
             if(error.errorCode == 5001) {
                 kony.sync.createDownloadTask(dbname, tableName, binaryColumnName, primaryKeyTable, config,
                     createTaskSuccess, createTaskFailure);
+            }else{
+                sync.log.error("kony.sync.getBinary - error received from getFilePath ", error);
+                kony.sync.verifyAndCallClosure(errorCallback, error);
             }
         } else {
             kony.sync.verifyAndCallClosure(errorCallback, error);
