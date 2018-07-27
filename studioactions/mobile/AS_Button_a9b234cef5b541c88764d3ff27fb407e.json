@@ -1,0 +1,28 @@
+{
+    "AS_Button_a9b234cef5b541c88764d3ff27fb407e": {
+        "id": "AS_Button_a9b234cef5b541c88764d3ff27fb407e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateUserData",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c5a6aeada51d4293a47d706957d75708"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___gddc0f2e4d2444a387eb385b84626400",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saveData",
+            "display": "saveData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

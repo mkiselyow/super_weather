@@ -1,0 +1,23 @@
+{
+    "AS_Form_i2e02f4312394c35a564b40f0796005c": {
+        "id": "AS_Form_i2e02f4312394c35a564b40f0796005c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e847e34c7d0d457189452b4e513beba0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "EXIT_APP__d1139c8b9a4a48448ff213689887de94",
+            "type": "EXIT_APP",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

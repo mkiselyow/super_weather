@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd1f27733a8d407d9b17092a26353197",
+    "_text_": "Load Profile",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "android": {
+        "psp": {
+            "pressedSkin": "s11df35445d34655887792658233227a"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "se9c884bf9694e7aacbdb102d6e8f899",
+    "id": "loadProfile",
+    "ide_onClick": "AS_Button_b4bd232908d54be2bfa4cf6d099fad97",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f05c37f0c24f4b3da80b8c6bfaf85df8",
+    "name": "kony.ui.Button",
+    "parent": "bodyContainer",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

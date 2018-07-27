@@ -40,7 +40,9 @@
         "logOutBtn",
         "loadProfile",
         "loadWeatherBtn",
-        "showWeatherListBtn"
+        "showWeatherListBtn",
+        "addUserDataBtn",
+        "addCityBtn"
     ],
     "clipbounds": true,
     "containerweight": 100,

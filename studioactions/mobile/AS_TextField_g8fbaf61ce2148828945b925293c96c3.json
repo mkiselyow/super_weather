@@ -1,0 +1,31 @@
+{
+    "AS_TextField_g8fbaf61ce2148828945b925293c96c3": {
+        "id": "AS_TextField_g8fbaf61ce2148828945b925293c96c3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmAddNewLocation",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a93e834f102348388bcbf33cca70a67e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___aa629dcdf0ac4c8aa77b8d4530656ef4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onMapSearchSuggestions",
+            "display": "onMapSearchSuggestions",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

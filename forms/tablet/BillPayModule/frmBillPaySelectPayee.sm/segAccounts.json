@@ -1,0 +1,540 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "imgUpArrow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag_2.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Transactions"
+                }
+            },
+            [
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgUpArrow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag_2.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Transactions"
+                }
+            },
+            [
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                },
+                {
+                    "imgInfo": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "info_icon_1.png"
+                    },
+                    "imgebill": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ebill_1.png"
+                    },
+                    "lblPayeeInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblPayeeName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": true
+        }
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "110",
+    "disabledSkins": {},
+    "enabledictionary": true,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segAccounts",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "enableDictionary": true,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e9e9813213fc4b18bf5f8674383683dd",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot_2.png",
+    "pageondotimage": "pageondot_2.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainContainer",
+    "pf": "frmBillPaySelectPayee",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "ab84c53e3b814747a1a2c4804bf4fbd6",
+    "rowcounter": 10,
+    "rowfocusskin": "s63baa2c4fe74ccb9e8a95511ae7ca9b",
+    "rowskin": "s1508b624d1d412483ced9a54ff68c01",
+    "rowtemplate": "CopyflxSelectPayee",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "e078799ec961441eb88018d684bbe340",
+    "sectionheaderskin": "sc28eb9cfee64b56b2bb43ef7b16651c",
+    "sectionheadertemplate": "CopyflxTransHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxSelectPayee": "CopyflxSelectPayee",
+        "CopyflxTransHeader": "CopyflxTransHeader",
+        "flxInfo": "flxInfo",
+        "flxRowAction": "flxRowAction",
+        "flxSeparator": "flxSeparator",
+        "flxShadowBottom": "flxShadowBottom",
+        "flxTypeOneShadow": "flxTypeOneShadow",
+        "flxebill": "flxebill",
+        "imgInfo": "imgInfo",
+        "imgUpArrow": "imgUpArrow",
+        "imgebill": "imgebill",
+        "lblHeader": "lblHeader",
+        "lblPayeeInfo": "lblPayeeInfo",
+        "lblPayeeName": "lblPayeeName"
+    },
+    "widgetskin": "s1508b624d1d412483ced9a54ff68c01",
+    "zindex": 1
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Label_f5252ef336124598a5bed4507aeb6064": {
+        "id": "AS_Label_f5252ef336124598a5bed4507aeb6064",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "FBox0j42271d6c5df4b",
+            "type": "templates",
+            "platform": "",
+            "KUID": "d8d034734e7e45c18bc3fb8420ac738a"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

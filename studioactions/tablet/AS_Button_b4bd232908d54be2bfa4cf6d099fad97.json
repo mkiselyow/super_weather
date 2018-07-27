@@ -1,0 +1,21 @@
+{
+    "AS_Button_b4bd232908d54be2bfa4cf6d099fad97": {
+        "id": "AS_Button_b4bd232908d54be2bfa4cf6d099fad97",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_a3c667d2e4c147b8b0437ae2c5c79afa",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loadProfile",
+            "display": "loadProfile",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

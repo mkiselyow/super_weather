@@ -601,5 +601,6 @@
     <attributes name="build" value="debug"/>
     <attributes name="certs_key_store_type" value="JKS"/>
     <attributes name="spaandroidtab800basefontsize" value="14"/>
+    <attributes name="fabric_runtime_app_version" value="1.0"/>
     <attributes name="defaultlocalekey" value=""/>
 </properties>

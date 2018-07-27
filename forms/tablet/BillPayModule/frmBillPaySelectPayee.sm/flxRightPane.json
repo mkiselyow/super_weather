@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd03b58bd4e647098e2c0332aadf9047",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "39%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxRightPaneSelectPayeeNameActive",
+        "flxRightPaneSelectPayeeToAccount",
+        "flxRightPaneSelectPayeeTransferAmount",
+        "flxRightPaneSelectPayeeDatefrequency",
+        "flxRightPaneSelectPayeeConfirm",
+        "flxRightPaneSelectPayeeEmptyContainer"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxRightPane",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i142c9eede054b1bb882ab1f2034dd3d",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxSelectPayeeMain",
+    "pf": "frmBillPaySelectPayee",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

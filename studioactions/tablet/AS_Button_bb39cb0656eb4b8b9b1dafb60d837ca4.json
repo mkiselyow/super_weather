@@ -1,0 +1,21 @@
+{
+    "AS_Button_bb39cb0656eb4b8b9b1dafb60d837ca4": {
+        "id": "AS_Button_bb39cb0656eb4b8b9b1dafb60d837ca4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_de7d88a915964395948ee47910f870fa",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "invokeWeatherApi",
+            "display": "invokeWeatherApi",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

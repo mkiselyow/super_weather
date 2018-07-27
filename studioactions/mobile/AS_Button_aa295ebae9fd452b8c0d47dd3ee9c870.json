@@ -1,0 +1,22 @@
+{
+    "AS_Button_aa295ebae9fd452b8c0d47dd3ee9c870": {
+        "id": "AS_Button_aa295ebae9fd452b8c0d47dd3ee9c870",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h7e211b351244f5ebb87227ee108bcf0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToAddUserScreen",
+            "display": "navigateToAddUserScreen",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

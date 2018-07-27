@@ -1,0 +1,28 @@
+{
+    "AS_Form_bcc91f09d8b24aff9d5d48f4fdd8cfb7": {
+        "id": "AS_Form_bcc91f09d8b24aff9d5d48f4fdd8cfb7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUserList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d29774405eb64e248e8f2b53feb7fa57"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b73b3fb5eab8497380b93b77d768847f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToLoginScreen",
+            "display": "navigateToLoginScreen",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

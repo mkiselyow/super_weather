@@ -1,0 +1,49 @@
+{
+    "AS_Segment_c0225f97aae840c99e5e3561e90b93a5": {
+        "id": "AS_Segment_c0225f97aae840c99e5e3561e90b93a5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmAddNewLocation",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a93e834f102348388bcbf33cca70a67e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT__fb646b5885f44f7db81571a185ece049",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": "Add city",
+            "yesLabel": "Yes",
+            "noLabel": "No",
+            "alertMessage": "Do you want to add selected city?",
+            "messageType": "constant",
+            "parentId": null,
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT"
+        }, {
+            "id": "INVOKE_FUNCTION___de5d0f7f488e4b44b24e7a1f5b99bda5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addLocation",
+            "display": "addLocation",
+            "inputparams": [],
+            "parentId": "SHOW_ALERT__fb646b5885f44f7db81571a185ece049",
+            "callbackType": "True",
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

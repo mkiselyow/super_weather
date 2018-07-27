@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s5f2f776437a4775b0b3d9a8bcd10487",
+    "_skin_": "sd1f27733a8d407d9b17092a26353197",
     "_text_": "Load Profile",
     "_top_": {
         "type": "string",
@@ -32,6 +32,11 @@
         "type": "string",
         "value": "260dp"
     },
+    "android": {
+        "psp": {
+            "pressedSkin": "s11df35445d34655887792658233227a"
+        }
+    },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
@@ -39,6 +44,7 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
+    "disabledSkins": {},
     "displaytext": true,
     "focusskin": "se9c884bf9694e7aacbdb102d6e8f899",
     "id": "loadProfile",

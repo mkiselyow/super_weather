@@ -7,7 +7,39 @@
                     "platform": "iOS",
                     "os": "11.0",
                     "url": "C:\\Users\\inikol\\Kony-Visualizer-V8\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\603\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
-                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "filepath": "C:\\Users\\Max\\KonyVizEWS\\KonyWeather\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "enable": true
+                },
+                "Kony_SDKCommons-iOS-11.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\Development\\Kony_Visualizer\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\594\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-iOS-11.0.zip",
+                    "filepath": "C:\\Users\\Max\\KonyVizEWS\\KonyWeather\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
+                    "enable": true
+                },
+                "UtilColors-2.9.2-iOS-11.0": {
+                    "title": "UtilColors-2.9.2",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\Development\\workspace\\.nativebindings\\iOS\\11.0\\UtilColors-2.9.2-iOS-11.0.zip",
+                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\iOS\\11.0\\UtilColors-2.9.2-iOS-11.0.zip",
+                    "enable": true
+                },
+                "KonyFaceSDK-4.5.1-iOS-11.0": {
+                    "title": "KonyFaceSDK-4.5.1",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\Development\\workspace\\.nativebindings\\iOS\\11.0\\KonyFaceSDK-4.5.1-iOS-11.0.zip",
+                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\iOS\\11.0\\KonyFaceSDK-4.5.1-iOS-11.0.zip",
+                    "enable": true
+                },
+                "JumioNFI-2.9.2-iOS-11.0": {
+                    "title": "JumioNFI-2.9.2",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\Development\\workspace\\.nativebindings\\iOS\\11.0\\JumioNFI-2.9.2-iOS-11.0.zip",
+                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\iOS\\11.0\\JumioNFI-2.9.2-iOS-11.0.zip",
                     "enable": true
                 }
             }
@@ -19,7 +51,47 @@
                     "platform": "Android",
                     "os": "4.0",
                     "url": "C:\\Users\\inikol\\Kony-Visualizer-V8\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\603\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
-                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "filepath": "C:\\Users\\Max\\KonyVizEWS\\KonyWeather\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SDKCommons-Android-4.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\Development\\Kony_Visualizer\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\594\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-Android-4.0.zip",
+                    "filepath": "C:\\Users\\Max\\KonyVizEWS\\KonyWeather\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
+                    "enable": true
+                },
+                "GemaltoFaceAuthUI-Android-4.0": {
+                    "title": "GemaltoFaceAuthUI",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\Development\\workspace\\.nativebindings\\Android\\4.0\\GemaltoFaceAuthUI-Android-4.0.zip",
+                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\Android\\4.0\\GemaltoFaceAuthUI-Android-4.0.zip",
+                    "enable": true
+                },
+                "GemaltoFaceUISDK-Android-4.0": {
+                    "title": "GemaltoFaceUISDK",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\Development\\workspace\\.nativebindings\\Android\\4.0\\GemaltoFaceUISDK-Android-4.0.zip",
+                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\Android\\4.0\\GemaltoFaceUISDK-Android-4.0.zip",
+                    "enable": true
+                },
+                "java.util-Android-4.0": {
+                    "title": "java.util",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\Development\\workspace\\.nativebindings\\Android\\4.0\\java.util-Android-4.0.zip",
+                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\Android\\4.0\\java.util-Android-4.0.zip",
+                    "enable": true
+                },
+                "GemaltoSDK-4.5.1-armv7a-Android-4.0": {
+                    "title": "GemaltoSDK-4.5.1-armv7a",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\Development\\workspace\\.nativebindings\\Android\\4.0\\GemaltoSDK-4.5.1-armv7a-Android-4.0.zip",
+                    "filepath": "D:\\Development\\workspace\\niceweather\\nativebindings\\Android\\4.0\\GemaltoSDK-4.5.1-armv7a-Android-4.0.zip",
                     "enable": true
                 }
             }

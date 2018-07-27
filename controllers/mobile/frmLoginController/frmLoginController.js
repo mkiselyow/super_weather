@@ -1,15 +1,19 @@
 define({ 
+  _isLogged: false,
+  
+  onNavigate: function(context, isBackNavigation) {
+    this.updateViewVisibility();
+  },
   
   logIn: function() {
-    var params = {
-      UseDeviceBrowser: true,
-      success_url: 'konyweather://com.orgname.KonyWeather'
-    };
-    
-    var service = kony.sdk.getCurrentInstance().getIdentityService("KonyWeatherAuthentication");
-    service.login(params, function(response) {
-                    alert("Success: " +  JSON.stringify(response));
+    var self = this;
+    self.setLoadingScreenVisibility(true);
+    LoginService.login(null, function(response) {
+      							self._isLogged = true;
+      							self.updateViewVisibility();
+      							self.setLoadingScreenVisibility(false);
                   }, function(error) {
+      							self.setLoadingScreenVisibility(false);
                     alert("Error" + JSON.stringify(error));
                   });
   },
@@ -22,9 +26,10 @@ define({
     };
     var service = kony.sdk.getCurrentInstance().getIdentityService("KonyWeatherAuthentication");
     this.setBrowserVisibility(true);
-    service.logout(function(response) {
+    LoginService.logout(function(response) {
+      							self._isLogged = false;
+      							self.updateViewVisibility();
           					self.setBrowserVisibility(false);
-                    alert("Success: " +  JSON.stringify(response));
                   }, function(error) {
       							self.setBrowserVisibility(false);
                     alert("Error" + JSON.stringify(error));
@@ -36,12 +41,7 @@ define({
 	},
   
   loadProfile: function() {
-  	var service = kony.sdk.getCurrentInstance().getIdentityService("KonyWeatherAuthentication");
-    service.getProfile(true, function(response) {
-      alert("Success: " + JSON.stringify(response));
-    }, function(error) {
-      alert("Error: " + JSON.stringify(error));
-    });	
+  	alert(JSON.stringify(LoginService.getProfile()));
 	}, 
   
   invokeWeatherApi: function() {
@@ -60,10 +60,30 @@ define({
     });
   },
   
-  navigateToWeatherListScreen: function() {
-    var navigation = new kony.mvc.Navigation('frmWeatherList');
-    navigation.navigate();
+  updateViewVisibility: function() {
+    var isLogged = this._isLogged;
+    var container = this.view.bodyContainer;
     
-    kony.application.destroyForm("frmLogin");
+    container.logInBtn.setVisibility(!isLogged);
+    container.loadProfile.setVisibility(isLogged);
+    container.loadWeatherBtn.setVisibility(isLogged);
+    container.showWeatherListBtn.setVisibility(isLogged);
+    container.logOutBtn.setVisibility(isLogged);
+    container.addUserDataBtn.setVisibility(isLogged);
+    container.addCityBtn.setVisibility(isLogged);
+  },
+  
+  setLoadingScreenVisibility: function(visible) {
+    this.view.WaitingWidget.setVisibility(visible);
+  },
+  
+  navigateToWeatherListScreen: function() {
+    var navigation = new kony.mvc.Navigation('frmUserList');
+    navigation.navigate();
+  },
+  
+  navigateToAddUserScreen: function() {
+    var navigation = new kony.mvc.Navigation('frmCreateUserData');
+    navigation.navigate();
   },
 });

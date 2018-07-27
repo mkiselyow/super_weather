@@ -1,0 +1,18 @@
+{
+    "AS_UWI_c9cafcb0b2864d499ba883e210cab6ea": {
+        "id": "AS_UWI_c9cafcb0b2864d499ba883e210cab6ea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "newText",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmCreateUserData",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c5a6aeada51d4293a47d706957d75708"
+        },
+        "language": "js",
+        "actions": []
+    }
+}
